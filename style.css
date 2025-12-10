@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 :root {
-	--page-width: 700px;
+	--page-width: 900px;
 	--bg-color: #1e1e2e;
 	--text-color: #cdd6f4;
 	--heading-color: #cba6f7;
@@ -50,3 +50,4 @@ a {
 	color: var(--heading-color);
 	font-style: italic;
 }	
+
