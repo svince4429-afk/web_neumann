@@ -1,19 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
 :root {
 	--page-width: 900px;
-	--bg-color: #1e1e2e;
-	--text-color: #cdd6f4;
-	--heading-color: #cba6f7;
+	--bg-color: #fbf1c7;
+	--text-color: #3c3836;
+	--heading-color: #689d6a;
 }
 
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'JetBrains Mono', monospace;
 	background: var(--bg-color);
 	color: var(--text-color);
 	display: flex;
 	justify-content: center;
+	font-family: Georgia, serif;
+	height: 100%;
 }
 
 img {
@@ -33,17 +34,24 @@ img:hover {
 	box-sizing: border-box;
 }
 
+.bar {
+	display: flex;
+	justify-content: space-evenly;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	color: var(--heading-color);
 	margin-top: 2rem;
 	margin-bottom: 0.8rem;
+	font-style: italic;
+	font-family: "Instrument Serif", serif;
 	font-weight: 100;
 }
 
 p {
 	line-height: 1.6;
-	font-weight: 400;
 	margin: 1.2rem 0;
+	font-weight: 400;
 }
 
 a {
@@ -51,3 +59,6 @@ a {
 	font-style: italic;
 }	
 
+.bar a {
+	font-style: normal;
+}
